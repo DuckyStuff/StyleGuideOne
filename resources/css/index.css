@@ -1,0 +1,203 @@
+/* removing unnecessary padding and margin*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header {
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding: 20px 50px;
+    background-color: rgb(173, 216, 230);
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* Main */
+main {
+    background-color: rgb(250, 235, 215);
+}
+
+section {
+    display: inline-block;
+    max-width: 4000px;
+    padding: 0  30px;
+}
+/* color palette */
+
+.color-palette {
+    padding: 30px 50px;
+}
+
+.color-palette h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+}
+
+.color-palette ul {
+    background-color: rgb(211, 211, 211);
+    max-width: 700px;
+}
+.color-palette ul li {
+    display: inline-block;
+    line-height: 200px;
+    text-align: center; 
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.color-palette ul li div {
+    border-radius: 100px;
+}
+
+.text-holder {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#aquamarine {
+    background-color: rgb(124, 200, 164);
+}
+
+#steel-blue {
+    background-color: rgb(78, 140, 170);
+}
+
+#slime-pink {
+    background-color: rgb(255, 44, 147)
+}
+
+#blond {
+    background-color: rgb(255, 255, 102);
+}
+
+#sky-blue-sorbet {
+    background-color: rgb(173, 216, 230);
+}
+
+#lime-light {
+    background-color: rgb(124, 252, 0);
+}
+
+#tangerine-tango {
+    background-color: rgb(255, 165, 0);
+}
+
+#royal-violet {
+    background-color: rgb(128, 0, 128);
+}
+
+#minty-fresh {
+    background-color: rgb(144, 238, 144);
+}
+
+/* Font Section */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fonts {
+    padding: 30px 50px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.fonts h3 {
+    font-size: 30px;
+}
+
+.fonts p {
+    font-size: 20px;
+}
+
+.fonts ul {
+    border: 6px solid rgb(211, 211, 211);
+    max-width: fit-content;
+    padding: 0 30px;
+    list-style-type: none;
+}
+
+.fonts h4 {
+    padding-top: 30px;
+}
+
+.fonts h4 a {
+    font-size: 30px;
+    color: rgb(138, 43, 226);
+    text-decoration: underline;
+}
+
+.fonts h4 a:hover {
+    color: rgb(34, 230, 213);
+}
+
+ul li .font-text-holder p {
+    font-size: 18px;
+    padding: 5px 0;    
+}
+#exo-2 {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#pathway-gothic-one {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Text Styles Section */
+
+.text-styles {
+    padding: 20px 50px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.text-styles h3 {
+    font-size: 30px;
+}
+
+.text-styles ul {
+    border: 6px solid rgb(211, 211, 211);
+    padding: 0 30px;
+    list-style-type: none;
+    max-width: 1000px;
+}
+
+.text-styles ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.text-styles ul li h3 {
+    font-size: 25px;
+}
+
+.text-styles ul li p {
+    font-size: 20px;
+}
+
+.text-styles .text-styles-text-holder p {
+    padding: 5px 0;
+}
+
+.text-styles .text-styles-text-holder h3 {
+    padding-top: 10px;
+}
